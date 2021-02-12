@@ -1,100 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <AbsoluteLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="144dp">
-
+        android:layout_height="match_parent">
         <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
             android:layout_width="wrap_content"
-            android:layout_height="263dp"
+            android:layout_height="204dp"
             android:layout_x="0dp"
             android:layout_y="1dp"
             android:src="@drawable/logo" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:layout_x="133dp"
-            android:layout_y="375dp"
-            android:background="#999999"
-            android:text="Login"
-            android:textColor="#FFFFFF"
-            tools:layout_editor_absoluteX="119dp"
-            tools:layout_editor_absoluteY="379dp" />
+            android:layout_width="149dp"
+            android:layout_height="143dp"
+            android:layout_x="214dp"
+            android:layout_y="284dp"
+            android:text="My Page"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="252dp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="48dp"
-            android:layout_height="33dp"
-            android:layout_x="78dp"
-            android:layout_y="280dp"
-            android:text="ID"
-            android:textColor="#FFFFFF"
-            android:textSize="20dp"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="273dp" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="48dp"
-            android:layout_height="33dp"
-            android:layout_x="78dp"
-            android:layout_y="330dp"
-            android:text="PW"
-            android:textColor="#FFFFFF"
-            android:textSize="20dp"
-            tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="330dp" />
-
-        <EditText
-            android:id="@+id/editText2"
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:layout_x="133dp"
-            android:layout_y="325dp"
-            android:background="#FFFFFF"
-            android:ems="10"
-            android:inputType="textPassword"
-            tools:layout_editor_absoluteX="119dp"
-            tools:layout_editor_absoluteY="330dp" />
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:layout_x="133dp"
-            android:layout_y="275dp"
-            android:background="#FFFFFF"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
-            tools:layout_editor_absoluteX="119dp"
-            tools:layout_editor_absoluteY="275dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="149dp"
+            android:layout_height="143dp"
+            android:layout_x="59dp"
+            android:layout_y="284dp"
+            android:text="Image Search"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="250dp" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_x="246dp"
-            android:layout_y="427dp"
-            android:background="#000000"
-            android:text="Sign Up"
-            android:textColor="#FFFFFF"
-            tools:layout_editor_absoluteX="247dp"
-            tools:layout_editor_absoluteY="423dp" />
+            android:layout_width="149dp"
+            android:layout_height="143dp"
+            android:layout_x="59dp"
+            android:layout_y="429dp"
+            android:text="about"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="149dp"
+            android:layout_height="143dp"
+            android:layout_x="214dp"
+            android:layout_y="429dp"
+            android:text="Logout"
+            tools:layout_editor_absoluteX="211dp"
+            tools:layout_editor_absoluteY="404dp" />
 
     </AbsoluteLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
